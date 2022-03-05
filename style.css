@@ -6,6 +6,12 @@
     --nasa-blue: rgb(11, 61, 145);
 }
 
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .title {
     color: var(--nasa-blue);
     font-size: 20px;
@@ -16,6 +22,41 @@
     color: red;
 }
 
+.nasa-picture {
+    width: auto;
+    height: auto;
+}
+
 .picture-explanation {
     font-size: 30px;
+}
+
+.prev-pics {
+    text-decoration: none;
+}
+
+.prev-pics:hover {
+    text-decoration: underline;
+}
+
+.now-pic {
+    text-decoration: none;
+}
+
+.now-pic:hover {
+    text-decoration: underline;
+}
+
+.datepick-label {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.margin {
+    margin-top: 10px;
 }
