@@ -1,0 +1,21 @@
+* {
+    font-family: Roboto;
+}
+
+:root {
+    --nasa-blue: rgb(11, 61, 145);
+}
+
+.title {
+    color: var(--nasa-blue);
+    font-size: 20px;
+}
+
+.picture-title {
+    font-size: 40px;
+    color: red;
+}
+
+.picture-explanation {
+    font-size: 30px;
+}
